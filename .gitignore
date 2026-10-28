@@ -1,0 +1,20 @@
+# Ignore home directory dotfiles and caches
+.*
+!.gitignore
+
+# Ignore Cloud Shell default file
+README-cloudshell.txt
+secure-ai-agents-lab/
+
+# Terraform local state and provider binaries
+**/.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
